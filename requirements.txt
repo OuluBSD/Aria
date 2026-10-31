@@ -1,8 +1,0 @@
-selenium
-webdriver-manager
-undetected-geckodriver
-google-genai
-beautifulsoup4
-# openai  # Uncomment if using OpenAI
-# anthropic # Uncomment if using Anthropic
-# python-dotenv
