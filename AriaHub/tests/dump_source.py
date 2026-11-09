@@ -1,0 +1,7 @@
+print("Navigating to Threads...")
+eval("window.location.href = 'https://www.threads.net/'")
+wait_time(10.0)
+print("Dumping source...")
+source = eval("return document.body.innerHTML")
+print(source[:10000])
+_exit(0)

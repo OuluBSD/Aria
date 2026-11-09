@@ -1,0 +1,7 @@
+print("Navigating to Threads...")
+navigate("https://www.threads.net/")
+wait_time(10.0)
+print("Detailed dump of first article:")
+res = eval("const art = document.querySelector('article, [role=\"article\"], [data-pressable-container=\"true\"]'); if (!art) return 'No article found'; const links = Array.from(art.querySelectorAll('a')).map(a => ({ href: a.href, text: a.innerText })); const dirs = Array.from(art.querySelectorAll('[dir=\"auto\"]')).map(d => d.innerText); return { links, dirs, innerText: art.innerText };")
+print(res)
+_exit(0)

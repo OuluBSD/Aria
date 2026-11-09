@@ -1,0 +1,6 @@
+print("Navigating to Threads...")
+wait_time(5.0)
+print("Links on page:")
+links = eval("return Array.from(document.querySelectorAll('a')).slice(0, 20).map(a => a.href + ' text=' + a.innerText)")
+print(links)
+_exit(0)

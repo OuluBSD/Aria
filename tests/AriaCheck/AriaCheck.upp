@@ -1,0 +1,9 @@
+uses
+	Core,
+	WebDriver;
+
+file
+	main.cpp;
+
+mainconfig
+	"" = "";

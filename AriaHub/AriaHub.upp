@@ -1,0 +1,34 @@
+description "Aria Unified Web Services Hub";
+
+uses
+	CtrlLib,
+	Aria,
+	Ctrl/Automation,
+	ByteVM;
+
+file
+	AriaHub.h,
+	main.cpp,
+	ServiceCtrl.h,
+	ThreadsCtrl.h,
+	ThreadsCtrl.cpp,
+	NewsCtrl.h,
+	NewsCtrl.cpp,
+	ForexCtrl.h,
+	ForexCtrl.cpp,
+	FacebookCtrl.h,
+	FacebookCtrl.cpp,
+	WhatsAppCtrl.h,
+	WhatsAppCtrl.cpp,
+	GoogleMessagesCtrl.h,
+	GoogleMessagesCtrl.cpp,
+	UniversalInboxCtrl.h,
+	UniversalInboxCtrl.cpp,
+	YouTubeCtrl.h,
+	YouTubeCtrl.cpp,
+	CalendarCtrl.h,
+	CalendarCtrl.cpp;
+
+mainconfig
+	"" = "GUI",
+	"" = "GUI USEMALLOC";
